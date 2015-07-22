@@ -29,8 +29,8 @@ export default class File {
       return path.join(this.folder, this.nameFor());
     }
 
-    load(folder, name, ext) {
-      switch (ext) {
+    load() {
+      switch (this.ext) {
         case 'yml':
           return this.loadYaml(this.folder, this.name);
         default:

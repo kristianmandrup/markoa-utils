@@ -32,7 +32,9 @@
   "homepage": "https://github.com/babel/babel-library-boilerplate",
   "dependencies": {
     "bluebird": "^2.9.34",
-    "js-yaml": "^3.3.1"
+    "js-yaml": "^3.3.1",
+    "mocks": "0.0.15",
+    "module-loader": "0.0.8"
   },
   "devDependencies": {
     "babel": "^5.0.0",
